@@ -14,6 +14,6 @@ public class DigitSum {
                 num /= 10;
             }
             return sum;
-        
+
     }    
 }
