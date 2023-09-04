@@ -19,7 +19,7 @@ public class EmployeeDetails {
                     break;
                 }
             }
-
+ 
             // Display the details of the employee if found, otherwise show an error message
             if (index != -1) {
                 System.out.println("Employee ID: " + empIds[index]);
