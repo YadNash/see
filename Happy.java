@@ -1,8 +1,10 @@
 import java.util.*;
+
 interface yes {
     int check(int num);
-    interface B{
-    	int sum(int num);
+
+    interface B {
+        int sum(int num);
     }
 }
 
@@ -17,9 +19,9 @@ class HappyNumber implements yes {
         }
         return sum;
     }
-    public int sum(int num)
-    {
-    	return check(num);
+
+    public int sum(int num) {
+        return check(num);
     }
 }
 
@@ -35,8 +37,7 @@ public class Happy {
         }
         if (finalVal == 1) {
             System.out.println(num + " is a Happy Number");
-        }
-        else {
+        } else {
             System.out.println(num + " is not a Happy Number");
         }
     }
